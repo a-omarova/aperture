@@ -1,0 +1,134 @@
+body {
+	margin: 0px;
+	background-color: #E3E3E3;
+}
+nav {
+	margin: 0px;
+	width: 100%;
+}
+.top_nav {
+	background: #191919;
+	margin: 0px;
+	padding: 5px 0px;
+	padding-right:10px;
+}
+.blue-circle {
+	width: 34px;
+	height: 34px;
+	border-radius: 100%;
+	background: #285360;
+	text-align: center;
+	display: inline-block;
+}
+.blue-circle > .fa {
+	margin-top: 9px;
+	color: white;
+}
+.right {
+	float: right;
+	margin-right: 10px;
+	color: #CFCFCF;
+}
+.clear {
+	clear: both;
+}
+
+.bottom_nav {
+	background-color: #EDEDED;
+    height: 63px;
+}
+.logo img {
+	height: 70%;
+	margin: 10px 0px 10px 30px;
+}
+ul {
+	display: block;
+	margin: 0px;
+}
+li {
+	display: block;
+	float: left;
+	height: 100%;
+	box-sizing: border-box;
+}
+li > a {
+	display: block;
+    padding: 22px;
+    color: #4C4C4C;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+li:hover > a {
+	background: #285360;
+	color: white;
+	text-decoration: none;
+}
+
+.slide {
+	position: relative;
+	background: url("../img/main.jpg");
+	height: 400px;
+	background-position: center 20%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-size: cover;
+}
+.light-waves {
+	height: 20px;
+    width: 100%;
+    background: url(../img/white_waves_bg.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+}
+.slide-pattern {
+	height: 100%;
+    background: url(../img/line_pattern.png);
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+.andvant span {
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-bottom: 35px;
+    padding-top: 15px;
+	text-align: center;
+}
+.andvant img {
+    margin: auto;
+    display: block;
+    max-height: 70px;
+}
+.andvant p {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    color: #555555;
+    line-height: 1.8em;
+	text-align: center;
+}
+.btn {
+	width: 200px;
+	display: block;
+    margin: auto;
+    font-weight: bold;
+    padding: 15px 20px;
+    background: #303030;
+    color: #FCFCFC;
+}
+
+.sprite {
+	width: 56px;
+	height: 56px;
+	background-image: url("../img/social_sprite.png");
+	float: left;
+}
+.tv { background-position-x: -56px; }
+.fb { background-position-x: -112px; }
+.sc { background-position-x: -168px; }
+.sprite:hover { background-position-y: -56px; }
